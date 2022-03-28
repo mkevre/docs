@@ -7,8 +7,8 @@ redirect_from:
   - /articles/search-basics
   - /articles/searching-github
   - /articles/advanced-search
-  - /articles/about-searching-on-github
-  - /github/searching-for-information-on-github/about-searching-on-github
+  - /makaleler/github'da arama hakkında
+  - /github/github-üzerinde-bilgi arama/github-hakkında-arama
   - /github/searching-for-information-on-github/getting-started-with-searching-on-github/about-searching-on-github
 versions:
   fpt: '*'

@@ -124,3 +124,14 @@ externalProducts:
     external: true
 ---
 
+# GitHub CLI api
+# https://cli.github.com/manual/gh_api
+
+gh api \
+  --method POST \
+  -H "Accept: application/vnd.github+json" \
+  /repos/OWNER/REPO/statuses/SHA \
+  -f state='success'
+ -f target_url='https://example.com/build/status'
+ -f description='The build succeeded!'
+ -f context='continuous-integration/jenkins'
